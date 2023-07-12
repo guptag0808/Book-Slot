@@ -6,7 +6,7 @@
 This is a slot booking system built with Node.js and MySQL. The system allows users to book slots for specific dates and time ranges.
 
 ## Frontend Link
-
+roaring-crostata-727cf9.netlify.app/
 
 ## Installation
 
