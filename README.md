@@ -5,6 +5,9 @@
 
 This is a slot booking system built with Node.js and MySQL. The system allows users to book slots for specific dates and time ranges.
 
+## Frontend Link
+
+
 ## Installation
 
 1. Clone the repository:
@@ -32,6 +35,7 @@ This is a slot booking system built with Node.js and MySQL. The system allows us
    ```
 
    The application should now be running on `http://localhost:8080`.
+   start the server with :-npm run server
 
 ## Usage
 
