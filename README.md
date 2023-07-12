@@ -10,13 +10,13 @@ This is a slot booking system built with Node.js and MySQL. The system allows us
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/slot-booking-system.git
+   git clone https://github.com/guptag0808/Book-Slot.git
    ```
 
 2. Install the dependencies:
 
    ```
-   cd slot-booking-system
+   cd Book-Slot
    npm install
    ```
 
@@ -31,7 +31,7 @@ This is a slot booking system built with Node.js and MySQL. The system allows us
    npm start
    ```
 
-   The application should now be running on `http://localhost:3000`.
+   The application should now be running on `http://localhost:8080`.
 
 ## Usage
 
