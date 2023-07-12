@@ -29,7 +29,9 @@ const Slot = sequelize.define('Slot', {
 });
 
 
-
+app.get("/",(req,res)=>{
+  res.send("this is home page")
+})
 
 
 // Create a new slot
@@ -60,7 +62,7 @@ app.post('/slots', async (req, res) => {
     res.json({ message: 'Slot created', slotId: newSlot.id });
   } catch (err) {
     console.error('Error creating slot:', err);
-    res.status(500).json({ error: 'Internal Server Error' });
+    res.status(500).json({ error: 'Internal Server Error',err });
   }
 });
 
